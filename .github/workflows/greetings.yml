@@ -1,5 +1,5 @@
 name: Greetings
-
+run-name: Greeting to ${{ github.actor }} with GitHub Actions 🎉
 on: [pull_request_target, issues]
 
 jobs:
