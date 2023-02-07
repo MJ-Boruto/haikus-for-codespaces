@@ -1,6 +1,6 @@
 name: Greetings
 run-name: Greeting to ${{ github.actor }} with GitHub Actions 🎉
-on: [pull_request_target, issues]
+on: [pull_request_target, issues, workflow_dispatch] # Workflow_dispatch: manual triggering
 
 jobs:
   greeting:
